@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T00:43:33.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="o_AEuuwx4g2Tb3jOnUud" version="20.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-05T01:17:32.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J-p5S4PIpHh4suqqDFl2" version="20.7.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1081" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="732" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -172,31 +172,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yhI7fwSjimeFWW4tSokS" name="페이지-2">
-    <mxGraphModel dx="1081" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="878" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hqLll3wIaJXHyMXQMs0s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="znq5bWAOmmJsJq6QOes9-1" target="vmLZ19Kb62ubDpeybTIp-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="239.83333333333348" y="160" as="targetPoint" />
+            <mxPoint x="439.8333333333335" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="znq5bWAOmmJsJq6QOes9-1" value="&quot;Save&quot; 모드 시작" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="180" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vmLZ19Kb62ubDpeybTIp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="vmLZ19Kb62ubDpeybTIp-1" target="vmLZ19Kb62ubDpeybTIp-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vmLZ19Kb62ubDpeybTIp-1" value="모드 버스 신호 &lt;br&gt;(&quot;공정 번호&quot;, &quot;위치 번호&quot;) &lt;br&gt;확인&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="165" y="150" width="150" height="70" as="geometry" />
+          <mxGeometry x="365" y="150" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vmLZ19Kb62ubDpeybTIp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vmLZ19Kb62ubDpeybTIp-2" target="ZnC6RYu1pMOmUZTfMVYk-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="239.83333333333348" y="550" as="targetPoint" />
+            <mxPoint x="439.8333333333335" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vmLZ19Kb62ubDpeybTIp-2" value="for(idx = 0; idx &amp;lt; MAX_POS_NUM; idx++)&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#fad9d5;strokeColor=#ae4132;startSize=30;arcSize=20;" vertex="1" parent="1">
-          <mxGeometry x="90" y="260" width="300" height="240" as="geometry" />
+          <mxGeometry x="290" y="260" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="vmLZ19Kb62ubDpeybTIp-4" value="2차 배열([&quot;공정 번호&quot;][idx]) 에 &quot;Task 1, 2, 3, 4, 5, 6&quot; 저장" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="vmLZ19Kb62ubDpeybTIp-2">
           <mxGeometry x="62.5" y="140" width="175" height="70" as="geometry" />
@@ -208,7 +208,7 @@
           <mxGeometry x="75" y="50" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZnC6RYu1pMOmUZTfMVYk-2" value="&quot;Save&quot; 모드 종료" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="180" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="530" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
